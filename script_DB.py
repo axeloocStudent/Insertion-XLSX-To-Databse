@@ -38,7 +38,7 @@ try:
     connection = mysql.connector.connect(host='10.11.2.74',
                                          database='EDI_PORTAL',
                                          user='ediuser',
-                                         password='Cebi-2021')
+                                         password='XXXX')
 
     if connection.is_connected():
         db_Info = connection.get_server_info()
